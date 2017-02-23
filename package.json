@@ -1,0 +1,32 @@
+{
+  "name": "ejerciciomongo",
+  "version": "1.0.0",
+  "description": "Express, nodeJS y mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klosorio10/EjercicioMongoDB.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoDB"
+  ],
+  "author": "Karen Lorena Osorio Henao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klosorio10/EjercicioMongoDB/issues"
+  },
+  "homepage": "https://github.com/klosorio10/EjercicioMongoDB#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "jade": "^1.11.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.2.24",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.0-beta11"
+  }
+}
