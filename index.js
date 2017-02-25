@@ -20,6 +20,11 @@ app.set('view engine', 'pug');
 app.set('views', './views');
 app.use(express.static('public'));
 
+// John: Te faltó la ruta del / y mostrar el template
+app.get('/', function (req, res) {
+  res.render('index');
+});
+
 
 app.listen(3001, function(){
 	console.log("Starting on port 3001");
