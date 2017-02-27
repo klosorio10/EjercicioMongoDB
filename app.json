@@ -1,0 +1,17 @@
+{
+  "name": "EjercicioMongoDB",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/klosorio10/EjercicioMongoDB"
+    }
+  ]
+}
