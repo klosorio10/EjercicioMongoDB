@@ -1,0 +1,43 @@
+
+.codigo{
+	font-family: "Bebas Neue",arial,serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+    color: white;
+}
+
+div.estudiante{
+    padding: 10px;
+    margin: 3px;
+    float: left;
+    width: 250px;
+    height: 180px;
+    /* border-bottom-style: inset; */
+    border-style: double;
+    border-color: rgba(88,62,120,0.3);
+}
+
+div.tweet{
+    background-color: white;
+    float: left;
+    width: 400px;
+    height: 210px;
+    border-style: solid;
+    border-color: #0084b4;
+    padding: 10px;
+}
+
+div.titulo{
+	background-color: rgb(88,62,120);
+    color: white;
+    text-align: center;
+}
+
+div.fondo{
+    background-color: #0084b4;
+    padding: 5px;
+}

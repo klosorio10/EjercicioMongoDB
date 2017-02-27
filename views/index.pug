@@ -1,22 +1,28 @@
 html
-	link(rel="stylesheet",
+	head
+		link(rel="stylesheet",
 		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
 		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u",
 		crossorigin="anonymous")
-
-	link(rel="stylesheet",
+		link(rel="stylesheet",
 		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css",
 		integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp",
 		crossorigin="anonymous")
+		link(rel="stylesheet", href="css/style.css")
 	body
-		h1 Karen Osorio
-		div 
-			br
-			div 
-				h2 Lo logre
-
+		div.container-fluid
+			div.row
+				div.fondo
+					h1 Tweets
+				br
+				br
+				div.row.fondo
+					div.col-sm-2
+					div#tweets.col-sm-8
+					div.col-sm-2
 	script(src="https://code.jquery.com/jquery-3.1.1.min.js",
  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",
  		crossorigin="anonymous")
-
 	script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
+	script(src="js/display.js")
+
